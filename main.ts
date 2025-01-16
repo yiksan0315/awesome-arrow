@@ -1,6 +1,6 @@
 import { Plugin } from "obsidian";
 
-export default class MyPlugin extends Plugin {
+export default class AwesomeArrow extends Plugin {
 	async onload() {
 		this.registerEvent(
 			this.app.workspace.on("editor-change", (editor) => {
